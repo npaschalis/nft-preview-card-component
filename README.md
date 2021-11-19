@@ -22,7 +22,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](https://raw.githubusercontent.com/npaschalis/nft-preview-card-component/master/design/screencapture.png)
 
 ## My process
 
