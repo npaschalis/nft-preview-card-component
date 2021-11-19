@@ -1,0 +1,150 @@
+:root {
+  --primary-soft-blue: hsl(215, 51%, 70%);
+  --primary-cyan: hsl(178, 100%, 50%);
+  --bg-dark-blue: hsl(217, 54%, 11%);
+  --card-dark-blue: hsl(216, 50%, 16%);
+  --line-dark-blue: hsl(215, 32%, 27%); 
+  --white: hsl(0, 0%, 100%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  font-family: 'Outfit', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bg-dark-blue);
+}
+
+.card {
+  margin: 0 auto;
+  max-width: 400px;
+  background-color: var(--card-dark-blue);
+  border-radius: 10px;
+}
+
+h2 a {
+  color: var(--white);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+h2 a:hover,
+h2 a:active {
+  color: var(--primary-cyan);
+}
+
+.card p {
+  color: var(--primary-soft-blue);
+  font-weight: 300;
+  line-height: 1.7;
+}
+
+.card .description {
+  font-size: 18px;
+}
+
+.card .container {
+  margin: auto;
+  padding: 25px;
+}
+
+.card .data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-image {
+  position: relative;
+}
+
+.overlay1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--primary-cyan);
+  width: 100%;
+  aspect-ratio: 1;
+  border-radius:10px;
+  opacity: 0;
+} 
+
+.overlay2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+}
+
+a.main-img:hover .overlay1,
+a.main-img:active .overlay1 {
+  opacity: 0.5;
+}
+
+a.main-img:hover .overlay2,
+a.main-img:active .overlay2 {
+  opacity: 1;
+}
+
+.nft-image {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.card .avatar {
+  height: 35px;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+
+.col {
+  display: flex;
+  gap: 6px;
+}
+
+.amount {
+  font-weight: 600;
+  color: var(--primary-cyan);
+}
+
+.days {
+  font-weight: 300;
+  color: var(--primary-soft-blue);
+}
+
+.line {
+  background-color: var(--line-dark-blue);
+  margin: 20px 0;
+  height: 1px;
+}
+
+.creation {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.creation a {
+  display: inline-block;
+  color: var(--white);
+  text-decoration: none;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.creation a:hover,
+.creation a:active {
+  color: var(--primary-cyan);
+}
