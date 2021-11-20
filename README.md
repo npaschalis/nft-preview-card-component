@@ -23,11 +23,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](https://raw.githubusercontent.com/npaschalis/nft-preview-card-component/master/design/screencapture.png)
+![https://raw.githubusercontent.com/npaschalis/nft-preview-card-component/master/design/screencapture.png]
 
 ### Links
 
-- Solution URL: [](https://npaschalis.github.io/nft-preview-card-component/)
+- Solution URL: [https://npaschalis.github.io/nft-preview-card-component]
 
 ## My process
 
