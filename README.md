@@ -7,6 +7,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
+  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
 - [Author](#author)
@@ -23,6 +24,10 @@ Users should be able to:
 ### Screenshot
 
 ![](https://raw.githubusercontent.com/npaschalis/nft-preview-card-component/master/design/screencapture.png)
+
+### Links
+
+- Solution URL: [](https://npaschalis.github.io/nft-preview-card-component/)
 
 ## My process
 
