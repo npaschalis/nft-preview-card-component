@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://npaschalis.github.io/nft-preview-card-component]
+- Solution URL: [netlify link](https://stalwart-kitsune-872986.netlify.app/)
 
 ## My process
 
